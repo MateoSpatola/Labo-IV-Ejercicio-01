@@ -2,7 +2,7 @@
     font-family: Arial, sans-serif;
 }
 
-.ejercicio {
+section {
     padding: 0;
     height: 80vh;
     display: flex;
@@ -49,6 +49,10 @@ input {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+}
+
+input#promedio, input#suma {
+    background-color: #00000015;
 }
 
 .buttons {
